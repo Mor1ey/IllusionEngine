@@ -1,0 +1,17 @@
+﻿Compilación iniciada a las 7/25/2011 10:35:40 PM.
+     1>Proyecto "C:\IllusionEngine\vcproject\IEStd\IEStd.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "..\..\build\Debug\Win32\IEStd.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         Todas las salidas están actualizadas.
+       Lib:
+         Todas las salidas están actualizadas.
+         IEStd.vcxproj -> C:\IllusionEngine\vcproject\IEStd\..\..\dist\Debug\Win32\IEStd.lib
+       FinalizeBuildStatus:
+         Se eliminará el archivo "..\..\build\Debug\Win32\IEStd.unsuccessfulbuild".
+         Aplicando tarea Touch a "..\..\build\Debug\Win32\IEStd.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\IllusionEngine\vcproject\IEStd\IEStd.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.16

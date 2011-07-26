@@ -1,0 +1,18 @@
+﻿Compilación iniciada a las 7/25/2011 11:31:19 PM.
+     1>Proyecto "C:\IllusionEngine\vcproject\IEMath\IEMath.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "..\..\built\Debug\Win32\IEMath.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\built\Debug\Win32\\" /Fd"..\..\built\Debug\Win32\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\IEMath\IEMath.cpp
+         IEMath.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\dist\Debug\Win32\IEMath.lib" /NOLOGO ..\..\built\Debug\Win32\IEMath.obj
+         IEMath.vcxproj -> C:\IllusionEngine\vcproject\IEMath\..\..\dist\Debug\Win32\IEMath.lib
+       FinalizeBuildStatus:
+         Se eliminará el archivo "..\..\built\Debug\Win32\IEMath.unsuccessfulbuild".
+         Aplicando tarea Touch a "..\..\built\Debug\Win32\IEMath.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\IllusionEngine\vcproject\IEMath\IEMath.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.70
