@@ -38,12 +38,12 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>..\..\dist\$(Configuration)\$(Platform)\</OutDir>
-    <IntDir>..\..\built\$(Configuration)\$(Platform)\</IntDir>
+    <IntDir>..\..\build\$(Configuration)\$(Platform)\</IntDir>
     <IncludePath>C:\IllusionEngine\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>..\..\dist\$(Configuration)\$(Platform)\</OutDir>
-    <IntDir>..\..\built\$(Configuration)\$(Platform)\</IntDir>
+    <IntDir>..\..\build\$(Configuration)\$(Platform)\</IntDir>
     <IncludePath>C:\IllusionEngine\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
