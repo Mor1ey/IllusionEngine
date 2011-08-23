@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\IEMath\IEMath.hpp" />
+    <ClInclude Include="..\..\include\IEMath\src\Cholesky\LDLT.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Cholesky\LLT.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\AltiVec\Complex.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\AltiVec\PacketMath.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\Default\Settings.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\NEON\Complex.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\NEON\PacketMath.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\SSE\Complex.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\SSE\MathFunctions.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\SSE\PacketMath.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Array.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\ArrayBase.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\ArrayWrapper.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Assign.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\BandMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Block.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\BooleanRedux.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\CommaInitializer.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\CwiseBinaryOp.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\CwiseNullaryOp.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\CwiseUnaryOp.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\CwiseUnaryView.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\DenseBase.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\DenseCoeffsBase.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\DenseStorage.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Diagonal.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\DiagonalMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\DiagonalProduct.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Dot.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\EigenBase.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Flagged.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\ForceAlignedAccess.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Functors.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Fuzzy.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\GenericPacketMath.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\GlobalFunctions.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\IO.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Map.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\MapBase.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\MathFunctions.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Matrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\MatrixBase.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\NestByValue.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\NoAlias.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\NumTraits.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\PermutationMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\PlainObjectBase.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Product.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\ProductBase.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\CoeffBasedProduct.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\GeneralBlockPanelKernel.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\GeneralMatrixMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\GeneralMatrixMatrixTriangular.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\GeneralMatrixVector.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\Parallelizer.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\SelfadjointMatrixMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\SelfadjointMatrixVector.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\SelfadjointProduct.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\SelfadjointRank2Update.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\TriangularMatrixMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\TriangularMatrixVector.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\TriangularSolverMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\TriangularSolverVector.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Random.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Redux.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Replicate.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\ReturnByValue.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Reverse.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Select.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\SelfAdjointView.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\SelfCwiseBinaryOp.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\SolveTriangular.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\StableNorm.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Stride.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Swap.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Transpose.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Transpositions.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\TriangularMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\BlasUtil.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\Constants.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\DisableStupidWarnings.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\ForwardDeclarations.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\Macros.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\Memory.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\Meta.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\ReenableStupidWarnings.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\StaticAssert.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\XprHelper.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\VectorBlock.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\VectorwiseOp.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Core\Visitor.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\ComplexEigenSolver.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\ComplexSchur.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\EigenSolver.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\EigenvaluesCommon.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\GeneralizedSelfAdjointEigenSolver.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\HessenbergDecomposition.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\MatrixBaseEigenvalues.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\RealSchur.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\SelfAdjointEigenSolver.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\Tridiagonalization.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\AlignedBox.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\AngleAxis.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\arch\Geometry_SSE.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\EulerAngles.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Homogeneous.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Hyperplane.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\OrthoMethods.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\ParametrizedLine.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Quaternion.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Rotation2D.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\RotationBase.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Scaling.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Transform.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Translation.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Umeyama.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Householder\BlockHouseholder.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Householder\Householder.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Householder\HouseholderSequence.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Jacobi\Jacobi.h" />
+    <ClInclude Include="..\..\include\IEMath\src\LU\arch\Inverse_SSE.h" />
+    <ClInclude Include="..\..\include\IEMath\src\LU\Determinant.h" />
+    <ClInclude Include="..\..\include\IEMath\src\LU\FullPivLU.h" />
+    <ClInclude Include="..\..\include\IEMath\src\LU\Inverse.h" />
+    <ClInclude Include="..\..\include\IEMath\src\LU\PartialPivLU.h" />
+    <ClInclude Include="..\..\include\IEMath\src\misc\Image.h" />
+    <ClInclude Include="..\..\include\IEMath\src\misc\Kernel.h" />
+    <ClInclude Include="..\..\include\IEMath\src\misc\Solve.h" />
+    <ClInclude Include="..\..\include\IEMath\src\QR\ColPivHouseholderQR.h" />
+    <ClInclude Include="..\..\include\IEMath\src\QR\FullPivHouseholderQR.h" />
+    <ClInclude Include="..\..\include\IEMath\src\QR\HouseholderQR.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\AmbiVector.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\CompressedStorage.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\CoreIterators.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\DynamicSparseMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\MappedSparseMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseAssign.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseBlock.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseCwiseBinaryOp.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseCwiseUnaryOp.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseDenseProduct.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseDiagonalProduct.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseDot.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseFuzzy.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseMatrix.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseMatrixBase.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseProduct.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseRedux.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseSelfAdjointView.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseSparseProduct.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseTranspose.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseTriangularView.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseUtil.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseVector.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseView.h" />
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\TriangularSolver.h" />
+    <ClInclude Include="..\..\include\IEMath\src\StlSupport\details.h" />
+    <ClInclude Include="..\..\include\IEMath\src\StlSupport\StdDeque.h" />
+    <ClInclude Include="..\..\include\IEMath\src\StlSupport\StdList.h" />
+    <ClInclude Include="..\..\include\IEMath\src\StlSupport\StdVector.h" />
+    <ClInclude Include="..\..\include\IEMath\src\SVD\JacobiSVD.h" />
+    <ClInclude Include="..\..\include\IEMath\src\SVD\UpperBidiagonalization.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\IEMath\Array" />
+    <None Include="..\..\include\IEMath\Cholesky" />
+    <None Include="..\..\include\IEMath\CMakeLists.txt" />
+    <None Include="..\..\include\IEMath\Core" />
+    <None Include="..\..\include\IEMath\Dense" />
+    <None Include="..\..\include\IEMath\Eigen" />
+    <None Include="..\..\include\IEMath\Eigen2Support" />
+    <None Include="..\..\include\IEMath\Eigenvalues" />
+    <None Include="..\..\include\IEMath\Geometry" />
+    <None Include="..\..\include\IEMath\Householder" />
+    <None Include="..\..\include\IEMath\Jacobi" />
+    <None Include="..\..\include\IEMath\LeastSquares" />
+    <None Include="..\..\include\IEMath\LU" />
+    <None Include="..\..\include\IEMath\QR" />
+    <None Include="..\..\include\IEMath\QtAlignedMalloc" />
+    <None Include="..\..\include\IEMath\Sparse" />
+    <None Include="..\..\include\IEMath\StdDeque" />
+    <None Include="..\..\include\IEMath\StdList" />
+    <None Include="..\..\include\IEMath\StdVector" />
+    <None Include="..\..\include\IEMath\SVD" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{97F7061C-9374-4528-9D6A-9E865DB8FC8B}</ProjectGuid>
+    <RootNamespace>IEMath</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\dist\$(Configuration)\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>..\..\build\$(Configuration)\$(Platform)\</IntDir>
+    <IncludePath>$(SolutionDir)\..\include\IEMath;$(SolutionDir)\..\include\IEMath\cml;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\dist\$(Configuration)\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>..\..\build\$(Configuration)\$(Platform)\</IntDir>
+    <IncludePath>$(SolutionDir)\..\include\IEMath;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

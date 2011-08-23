@@ -12,9 +12,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\IEMath\IEMath.hpp" />
+    <ClInclude Include="..\..\include\IEMath\Point.h" />
+    <ClInclude Include="..\..\include\IEMath\Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\IEMath\IEMath.cpp" />
+    <ClCompile Include="..\..\src\IEMath\Point.cpp" />
+    <ClCompile Include="..\..\src\IEMath\Vector.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{97F7061C-9374-4528-9D6A-9E865DB8FC8B}</ProjectGuid>

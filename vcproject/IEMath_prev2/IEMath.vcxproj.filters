@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\core">
+      <UniqueIdentifier>{1631b5ec-c5f4-4a39-bed9-5765ccf7d3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\matrix">
+      <UniqueIdentifier>{eb765757-4ed5-42c7-839d-a1f6b2c7df16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\vector">
+      <UniqueIdentifier>{8434b440-8f81-4b85-bdac-09ba7ced45aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\quaternio">
+      <UniqueIdentifier>{60c90f91-8732-49e5-9b02-2361100ed2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\matrix">
+      <UniqueIdentifier>{e9942b72-2a4d-42ee-a457-0b7c09590736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\quaternio">
+      <UniqueIdentifier>{0b0e29ef-631c-47d4-8b2f-4bd24dcd08ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\vector">
+      <UniqueIdentifier>{27d0a7a8-d4e1-4237-bcd0-02628eedfab1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\IEMath\IEMath.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\core\iemath_core.hpp">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\core\iemath_base.hpp">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\core\iemath_const.hpp">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\matrix\matrix.h">
+      <Filter>Archivos de encabezado\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\quaternion\quaternion.h">
+      <Filter>Archivos de encabezado\quaternio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\vector\vector.h">
+      <Filter>Archivos de encabezado\vector</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\IEMath\matrix\matrix.cpp">
+      <Filter>Archivos de código fuente\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\IEMath\vector\vector.cpp">
+      <Filter>Archivos de código fuente\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\IEMath\quaternion\quaternion.cpp">
+      <Filter>Archivos de código fuente\quaternio</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

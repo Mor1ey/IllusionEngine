@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\render">
+      <UniqueIdentifier>{50545f8d-02b7-4544-a7b0-3787aa458d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\render">
+      <UniqueIdentifier>{1ac1f137-8dd9-4bdf-8620-0d5931f1766f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\physics">
+      <UniqueIdentifier>{1ceaf3cb-fc8c-4c01-a530-4a99b077f23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\physics">
+      <UniqueIdentifier>{6c23aff6-2dd4-4200-9a53-5f528e9a6256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\animations">
+      <UniqueIdentifier>{5d94352a-d342-41ec-8345-9dc85f3f6d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\animations">
+      <UniqueIdentifier>{2e64e5be-a35a-498e-9569-8c2892d6a0e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\memory">
+      <UniqueIdentifier>{6205fea0-729c-4169-8cb8-8d31ce68d668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\memory">
+      <UniqueIdentifier>{63714074-55b0-4774-aa95-c696a97d1204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\filesystem">
+      <UniqueIdentifier>{85757ac0-2ccd-4ab8-a825-abb5d9d704a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\filesystem">
+      <UniqueIdentifier>{0a47fa58-06c2-4d8b-a530-458845af46ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\dll">
+      <UniqueIdentifier>{329074ef-6bd2-4441-b1f3-c5d5466ebad0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\IESystem\IESystem.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IESystem\rendermanager\RenderManager.h">
+      <Filter>Archivos de encabezado\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IESystem\manager.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IESystem\dll\IEDinamicLib.h">
+      <Filter>Archivos de encabezado\dll</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\IESystem\rendermanager\RenderManager.cpp">
+      <Filter>Archivos de código fuente\render</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

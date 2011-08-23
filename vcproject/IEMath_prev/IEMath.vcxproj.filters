@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Cholesky">
+      <UniqueIdentifier>{6022ad8d-70ed-49b6-a2f7-a3e2e4e3c083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Core">
+      <UniqueIdentifier>{da1096cf-762d-4ebf-8544-352c9a4fffc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Core\arch">
+      <UniqueIdentifier>{2733f7e6-6a43-4b52-8b41-e8eef4b46153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Core\products">
+      <UniqueIdentifier>{cc24fe16-e341-4361-9edc-7acb6574417d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Core\util">
+      <UniqueIdentifier>{e353e63e-be81-4952-8c88-efdc41131d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Core\arch\AltiVec">
+      <UniqueIdentifier>{9acd205b-e08f-4007-892e-eda100a57e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Core\arch\Default">
+      <UniqueIdentifier>{42e7ea60-7e09-4113-a3a0-48fe77ab5c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Core\arch\NEON">
+      <UniqueIdentifier>{ee8506db-0120-47ac-bf50-ae8f94bc95a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Core\arch\SSE">
+      <UniqueIdentifier>{21dc8e8d-8ee5-451f-b4c1-475b47709780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Eigenvalues">
+      <UniqueIdentifier>{f7f5a162-25b7-484b-a2ea-fb0939dc3ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Geometry">
+      <UniqueIdentifier>{ab50d564-559d-4433-a22d-d5165540cfc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Geometry\arch">
+      <UniqueIdentifier>{52446eb1-4a83-4992-bfc4-5e01d26992d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Householder">
+      <UniqueIdentifier>{4bca130f-7388-49c6-b274-5a8a395d918b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Jacobi">
+      <UniqueIdentifier>{b67d2a08-e559-423a-ae87-703279ab85b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\LU">
+      <UniqueIdentifier>{cf98e676-988d-445e-8f8c-9d63b91c675e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\misc">
+      <UniqueIdentifier>{384e3d7d-a44f-4094-8973-d28623ab40b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\QR">
+      <UniqueIdentifier>{a06f0093-f4fb-4149-8d2b-1986be99054a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Sparse">
+      <UniqueIdentifier>{03fd1854-a58f-4cc6-a81d-71c990b7d812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\StlSupport">
+      <UniqueIdentifier>{84ff1d9b-5ff5-4fc5-83ca-2d00e51c8691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\SVD">
+      <UniqueIdentifier>{321795f1-6e08-4a1f-ae64-364b32ec22f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\LU\arch">
+      <UniqueIdentifier>{256f7018-69de-4d2b-8df3-0ed12cdd15b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\IEMath\IEMath.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Cholesky\LDLT.h">
+      <Filter>Archivos de encabezado\Cholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Cholesky\LLT.h">
+      <Filter>Archivos de encabezado\Cholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Array.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\ArrayBase.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\ArrayWrapper.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Assign.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\BandMatrix.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Block.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\BooleanRedux.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\CommaInitializer.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\CwiseBinaryOp.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\CwiseNullaryOp.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\CwiseUnaryOp.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\CwiseUnaryView.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\DenseBase.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\DenseCoeffsBase.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\DenseStorage.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Diagonal.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\DiagonalMatrix.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\DiagonalProduct.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Dot.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\EigenBase.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Flagged.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\ForceAlignedAccess.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Functors.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Fuzzy.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\GenericPacketMath.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\GlobalFunctions.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\IO.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Map.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\MapBase.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\MathFunctions.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Matrix.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\MatrixBase.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\NestByValue.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\NoAlias.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\NumTraits.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\PermutationMatrix.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\PlainObjectBase.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Product.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\ProductBase.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Random.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Redux.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Replicate.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\ReturnByValue.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Reverse.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Select.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\SelfAdjointView.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\SelfCwiseBinaryOp.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\SolveTriangular.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\StableNorm.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Stride.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Swap.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Transpose.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Transpositions.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\TriangularMatrix.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\VectorBlock.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\VectorwiseOp.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\Visitor.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\AltiVec\Complex.h">
+      <Filter>Archivos de encabezado\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\AltiVec\PacketMath.h">
+      <Filter>Archivos de encabezado\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\Default\Settings.h">
+      <Filter>Archivos de encabezado\Core\arch\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\NEON\Complex.h">
+      <Filter>Archivos de encabezado\Core\arch\NEON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\NEON\PacketMath.h">
+      <Filter>Archivos de encabezado\Core\arch\NEON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\SSE\Complex.h">
+      <Filter>Archivos de encabezado\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\SSE\MathFunctions.h">
+      <Filter>Archivos de encabezado\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\arch\SSE\PacketMath.h">
+      <Filter>Archivos de encabezado\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\BlasUtil.h">
+      <Filter>Archivos de encabezado\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\Constants.h">
+      <Filter>Archivos de encabezado\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\DisableStupidWarnings.h">
+      <Filter>Archivos de encabezado\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\ForwardDeclarations.h">
+      <Filter>Archivos de encabezado\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\Macros.h">
+      <Filter>Archivos de encabezado\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\Memory.h">
+      <Filter>Archivos de encabezado\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\Meta.h">
+      <Filter>Archivos de encabezado\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\ReenableStupidWarnings.h">
+      <Filter>Archivos de encabezado\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\StaticAssert.h">
+      <Filter>Archivos de encabezado\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\util\XprHelper.h">
+      <Filter>Archivos de encabezado\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\CoeffBasedProduct.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\GeneralBlockPanelKernel.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\GeneralMatrixMatrix.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\GeneralMatrixMatrixTriangular.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\GeneralMatrixVector.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\Parallelizer.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\SelfadjointMatrixMatrix.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\SelfadjointMatrixVector.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\SelfadjointProduct.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\SelfadjointRank2Update.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\TriangularMatrixMatrix.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\TriangularMatrixVector.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\TriangularSolverMatrix.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Core\products\TriangularSolverVector.h">
+      <Filter>Archivos de encabezado\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\ComplexEigenSolver.h">
+      <Filter>Archivos de encabezado\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\ComplexSchur.h">
+      <Filter>Archivos de encabezado\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\EigenSolver.h">
+      <Filter>Archivos de encabezado\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\EigenvaluesCommon.h">
+      <Filter>Archivos de encabezado\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\GeneralizedSelfAdjointEigenSolver.h">
+      <Filter>Archivos de encabezado\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\HessenbergDecomposition.h">
+      <Filter>Archivos de encabezado\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\MatrixBaseEigenvalues.h">
+      <Filter>Archivos de encabezado\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\RealSchur.h">
+      <Filter>Archivos de encabezado\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\SelfAdjointEigenSolver.h">
+      <Filter>Archivos de encabezado\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Eigenvalues\Tridiagonalization.h">
+      <Filter>Archivos de encabezado\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\AlignedBox.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\AngleAxis.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\EulerAngles.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Homogeneous.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Hyperplane.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\OrthoMethods.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\ParametrizedLine.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Quaternion.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Rotation2D.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\RotationBase.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Scaling.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Transform.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Translation.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\Umeyama.h">
+      <Filter>Archivos de encabezado\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Geometry\arch\Geometry_SSE.h">
+      <Filter>Archivos de encabezado\Geometry\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Householder\BlockHouseholder.h">
+      <Filter>Archivos de encabezado\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Householder\Householder.h">
+      <Filter>Archivos de encabezado\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Householder\HouseholderSequence.h">
+      <Filter>Archivos de encabezado\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Jacobi\Jacobi.h">
+      <Filter>Archivos de encabezado\Jacobi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\LU\Determinant.h">
+      <Filter>Archivos de encabezado\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\LU\FullPivLU.h">
+      <Filter>Archivos de encabezado\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\LU\Inverse.h">
+      <Filter>Archivos de encabezado\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\LU\PartialPivLU.h">
+      <Filter>Archivos de encabezado\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\LU\arch\Inverse_SSE.h">
+      <Filter>Archivos de encabezado\LU\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\misc\Image.h">
+      <Filter>Archivos de encabezado\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\misc\Kernel.h">
+      <Filter>Archivos de encabezado\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\misc\Solve.h">
+      <Filter>Archivos de encabezado\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\SVD\JacobiSVD.h">
+      <Filter>Archivos de encabezado\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\SVD\UpperBidiagonalization.h">
+      <Filter>Archivos de encabezado\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\StlSupport\details.h">
+      <Filter>Archivos de encabezado\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\StlSupport\StdDeque.h">
+      <Filter>Archivos de encabezado\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\StlSupport\StdList.h">
+      <Filter>Archivos de encabezado\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\StlSupport\StdVector.h">
+      <Filter>Archivos de encabezado\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\AmbiVector.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\CompressedStorage.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\CoreIterators.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\DynamicSparseMatrix.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\MappedSparseMatrix.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseAssign.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseBlock.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseCwiseBinaryOp.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseCwiseUnaryOp.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseDenseProduct.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseDiagonalProduct.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseDot.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseFuzzy.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseMatrix.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseMatrixBase.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseProduct.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseRedux.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseSelfAdjointView.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseSparseProduct.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseTranspose.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseTriangularView.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseUtil.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseVector.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\SparseView.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\Sparse\TriangularSolver.h">
+      <Filter>Archivos de encabezado\Sparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\QR\ColPivHouseholderQR.h">
+      <Filter>Archivos de encabezado\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\QR\FullPivHouseholderQR.h">
+      <Filter>Archivos de encabezado\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IEMath\src\QR\HouseholderQR.h">
+      <Filter>Archivos de encabezado\QR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\IEMath\Array">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\Cholesky">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\CMakeLists.txt">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\Core">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\Dense">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\Eigen">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\Eigen2Support">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\Eigenvalues">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\Geometry">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\Householder">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\Jacobi">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\LeastSquares">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\LU">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\QR">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\QtAlignedMalloc">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\Sparse">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\StdDeque">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\StdList">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\StdVector">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+    <None Include="..\..\include\IEMath\SVD">
+      <Filter>Archivos de encabezado</Filter>
+    </None>
+  </ItemGroup>
+</Project>

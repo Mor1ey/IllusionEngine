@@ -1,0 +1,11 @@
+﻿Compilación iniciada a las 8/26/2011 10:40:45 AM.
+     1>Proyecto "C:\IllusionEngine\vcproject\IllusionAtomic\IllusionAtomic.vcxproj" en el nodo 2 (rebuild destinos).
+     1>PrepareForNMakeBuild:
+         Creando directorio "C:\IllusionEngine\vcproject\Debug\".
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(32,5): warning MSB8005: La propiedad 'NMakeCleanCommandLine' no existe. Se va a omitir...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(42,5): warning MSB8005: La propiedad 'NMakeReBuildCommandLine' no existe. Se va a omitir...
+     1>Compilación del proyecto terminada "C:\IllusionEngine\vcproject\IllusionAtomic\IllusionAtomic.vcxproj" (rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.43

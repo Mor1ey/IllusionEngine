@@ -11,20 +11,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9304959A-2C9D-4B02-BD17-2D989E0874F1}</ProjectGuid>
+    <ProjectGuid>{3A40CCD2-9115-4A3E-B438-9DF0638CE66E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
     <RootNamespace>IEStd</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -38,45 +39,177 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>..\..\dist\$(Configuration)\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IntDir>..\..\build\$(Configuration)\$(Platform)\</IntDir>
-    <IncludePath>C:\IllusionEngine\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>..\..\dist\$(Configuration)\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IntDir>..\..\build\$(Configuration)\$(Platform)\</IntDir>
-    <IncludePath>C:\IllusionEngine\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>../../include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;__STL_NO_SGI_IOSTREAMS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\IllusionEngine\STLport-5.2.1\stlport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\..\dist\$(Configuration)\Win32-x86;..\..\built\$(Configuration)\Win32-x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>../../include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\..\dist\$(Configuration)\Win32-x86;..\..\built\$(Configuration)\Win32-x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\IEStd\IEStd.cpp" />
+    <None Include="..\..\STLport-5.2.1\stlport\algorithm" />
+    <None Include="..\..\STLport-5.2.1\stlport\bitset" />
+    <None Include="..\..\STLport-5.2.1\stlport\cassert" />
+    <None Include="..\..\STLport-5.2.1\stlport\cctype" />
+    <None Include="..\..\STLport-5.2.1\stlport\cerrno" />
+    <None Include="..\..\STLport-5.2.1\stlport\cfloat" />
+    <None Include="..\..\STLport-5.2.1\stlport\ciso646" />
+    <None Include="..\..\STLport-5.2.1\stlport\climits" />
+    <None Include="..\..\STLport-5.2.1\stlport\clocale" />
+    <None Include="..\..\STLport-5.2.1\stlport\cmath" />
+    <None Include="..\..\STLport-5.2.1\stlport\complex" />
+    <None Include="..\..\STLport-5.2.1\stlport\csetjmp" />
+    <None Include="..\..\STLport-5.2.1\stlport\csignal" />
+    <None Include="..\..\STLport-5.2.1\stlport\cstdarg" />
+    <None Include="..\..\STLport-5.2.1\stlport\cstddef" />
+    <None Include="..\..\STLport-5.2.1\stlport\cstdio" />
+    <None Include="..\..\STLport-5.2.1\stlport\cstdlib" />
+    <None Include="..\..\STLport-5.2.1\stlport\cstring" />
+    <None Include="..\..\STLport-5.2.1\stlport\ctime" />
+    <None Include="..\..\STLport-5.2.1\stlport\cwchar" />
+    <None Include="..\..\STLport-5.2.1\stlport\cwctype" />
+    <None Include="..\..\STLport-5.2.1\stlport\deque" />
+    <None Include="..\..\STLport-5.2.1\stlport\exception" />
+    <None Include="..\..\STLport-5.2.1\stlport\fstream" />
+    <None Include="..\..\STLport-5.2.1\stlport\functional" />
+    <None Include="..\..\STLport-5.2.1\stlport\hash_map" />
+    <None Include="..\..\STLport-5.2.1\stlport\hash_set" />
+    <None Include="..\..\STLport-5.2.1\stlport\iomanip" />
+    <None Include="..\..\STLport-5.2.1\stlport\ios" />
+    <None Include="..\..\STLport-5.2.1\stlport\iosfwd" />
+    <None Include="..\..\STLport-5.2.1\stlport\iostream" />
+    <None Include="..\..\STLport-5.2.1\stlport\istream" />
+    <None Include="..\..\STLport-5.2.1\stlport\iterator" />
+    <None Include="..\..\STLport-5.2.1\stlport\limits" />
+    <None Include="..\..\STLport-5.2.1\stlport\list" />
+    <None Include="..\..\STLport-5.2.1\stlport\locale" />
+    <None Include="..\..\STLport-5.2.1\stlport\map" />
+    <None Include="..\..\STLport-5.2.1\stlport\memory" />
+    <None Include="..\..\STLport-5.2.1\stlport\new" />
+    <None Include="..\..\STLport-5.2.1\stlport\numeric" />
+    <None Include="..\..\STLport-5.2.1\stlport\ostream" />
+    <None Include="..\..\STLport-5.2.1\stlport\pthread_alloc" />
+    <None Include="..\..\STLport-5.2.1\stlport\queue" />
+    <None Include="..\..\STLport-5.2.1\stlport\rope" />
+    <None Include="..\..\STLport-5.2.1\stlport\set" />
+    <None Include="..\..\STLport-5.2.1\stlport\slist" />
+    <None Include="..\..\STLport-5.2.1\stlport\sstream" />
+    <None Include="..\..\STLport-5.2.1\stlport\stack" />
+    <None Include="..\..\STLport-5.2.1\stlport\stdexcept" />
+    <None Include="..\..\STLport-5.2.1\stlport\streambuf" />
+    <None Include="..\..\STLport-5.2.1\stlport\string" />
+    <None Include="..\..\STLport-5.2.1\stlport\strstream" />
+    <None Include="..\..\STLport-5.2.1\stlport\typeinfo" />
+    <None Include="..\..\STLport-5.2.1\stlport\type_traits" />
+    <None Include="..\..\STLport-5.2.1\stlport\unordered_map" />
+    <None Include="..\..\STLport-5.2.1\stlport\unordered_set" />
+    <None Include="..\..\STLport-5.2.1\stlport\utility" />
+    <None Include="..\..\STLport-5.2.1\stlport\valarray" />
+    <None Include="..\..\STLport-5.2.1\stlport\vector" />
+    <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\include\IEStd\IEStd.hpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\allocators.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\bitset.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\codecvt.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\collate.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\complex.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\complex_io.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\complex_trig.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\ctype.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\cxa.c" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\c_locale.c" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\dll_main.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\facets_byname.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\fstream.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\ios.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\iostream.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\istream.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\locale.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\locale_catalog.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\locale_impl.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\messages.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\monetary.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\numpunct.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\num_get.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\num_get_float.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\num_put.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\num_put_float.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\ostream.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\sstream.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\stdio_streambuf.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\string.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\strstream.cpp" />
+    <ClCompile Include="..\..\STLport-5.2.1\src\time_facets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\assert.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\ctype.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\errno.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\exception.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\float.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\fstream.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\iomanip.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\ios.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\iostream.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\iso646.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\istream.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\limits.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\locale.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\math.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\mem.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\new.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\ostream.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\pthread.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\rlocks.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\setjmp.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\signal.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\stdarg.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\stddef.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\stdio.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\stdiostream.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\stdlib.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\streambuf.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\string.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\strstream.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\time.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\typeinfo.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\wchar.h" />
+    <ClInclude Include="..\..\STLport-5.2.1\stlport\wctype.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
